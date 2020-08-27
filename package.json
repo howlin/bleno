@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "debug": "^4.1.1",
-    "@howlin/bluetooth-hci-socket": "^0.5.3-6",
+    "@howlin/bluetooth-hci-socket": "^0.5.3-7",
     "bplist-parser": "0.2.0",
     "xpc-connect": "^2.0.0"
   },
