@@ -1,6 +1,6 @@
 {
-  "name": "bleno",
-  "version": "0.5.0",
+  "name": "@howlin/bleno",
+  "version": "0.5.1-3",
   "description": "A Node.js module for implementing BLE (Bluetooth Low Energy) peripherals",
   "main": "index.js",
   "engines": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sandeepmistry/bleno"
+    "url": "git+https://github.com/howlin/bleno.git"
   },
   "keywords": [
     "BLE",
@@ -33,19 +33,27 @@
     "Jacob Rosenthal"
   ],
   "license": "MIT",
-  "readmeFilename": "README.md",
   "devDependencies": {
-    "jshint": "~2.9.4",
-    "should": "~2.0.2",
-    "mocha": "~1.14.0",
-    "node-blink1": "~0.2.2"
+    "jshint": "~2.11.0",
+    "should": "~13.2.3",
+    "mocha": "~7.1.0",
+    "node-blink1": "~0.3.0"
   },
   "dependencies": {
-    "debug": "^2.2.0"
+    "debug": "^4.1.1",
+    "@howlin/bluetooth-hci-socket": "^0.5.3-6",
+    "bplist-parser": "0.2.0",
+    "xpc-connect": "^2.0.0"
   },
   "optionalDependencies": {
-    "bluetooth-hci-socket": "^0.5.1",
-    "bplist-parser": "0.0.6",
-    "xpc-connection": "~0.1.4"
+    "@howlin/bluetooth-hci-socket": "^0.5.3-6",
+    "bplist-parser": "0.2.0",
+    "xpc-connect": "^2.0.0"
+  },
+  "homepage": "https://github.com/howlin/bleno#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   }
 }
